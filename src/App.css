@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  background-color: #f5f6f7;
+}
+
+h1 {
+  width: 100%;
+  font-size: 4rem;
+  padding: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 4rem 2rem;
+  text-align: center;
+  display: block;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-principal {
+  min-height: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
